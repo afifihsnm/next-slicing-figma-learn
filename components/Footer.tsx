@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Button } from "./ui/button";
 
 const Footer = () => {
@@ -28,9 +29,15 @@ const Footer = () => {
         </Button>
 
         <div className="flex justify-center items-center gap-8 flex-row mt-16">
-          <img src="./instagram.png" alt="" />
-          <img src="./linkedin.png" alt="" />
-          <img src="./email.png" alt="" />
+          <Link href="https://www.instagram.com/afif_ihsand">
+            <img src="./instagram.png" alt="" />
+          </Link>
+          <Link href="https://www.linkedin.com/in/afifihsanmaulana/">
+            <img src="./linkedin.png" alt="" />
+          </Link>
+          <Link href="https://mail.google.com/mail/?view=cm&fs=1&to=afifihsanke2@gmail.com">
+            <img src="./email.png" alt="" />
+          </Link>
         </div>
         <span className="flex justify-center items-center mt-8 text-[#828282]">©Afif Ihsan Maulana 2024</span>
       </footer>
