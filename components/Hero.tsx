@@ -15,12 +15,16 @@ const Hero = () => {
         dan Gim.
       </div>
       <div className="flex gap-2 mt-5">
-        <Button className="px-5 font-semibold text-black bg-yellow-400 hover:bg-yellow-400/90">
-          Projects
-        </Button>
-        <Button variant="outline" className="px-5 font-semibold text-black border-2 border-black">
-          LinkedIn
-        </Button>
+        <a href="https://github.com/afifihsnm" target="_blank" rel="noopener noreferrer">
+          <Button className="px-5 font-semibold text-black bg-yellow-400 hover:bg-yellow-400/90">
+            Projects
+          </Button>
+        </a>
+        <a href="https://www.linkedin.com/in/afifihsanmaulana" target="_blank" rel="noopener noreferrer">
+          <Button variant="outline" className="px-5 font-semibold text-black border-2 border-black">
+            LinkedIn
+          </Button>
+        </a>
       </div>
     </section>
   );

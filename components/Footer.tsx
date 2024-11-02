@@ -29,15 +29,15 @@ const Footer = () => {
         </Button>
 
         <div className="flex justify-center items-center gap-8 flex-row mt-16">
-          <Link href="https://www.instagram.com/afif_ihsand">
+          <a href="https://www.instagram.com/afif_ihsand" target="_blank" rel="noopener noreferrer">
             <img src="./instagram.png" alt="" />
-          </Link>
-          <Link href="https://www.linkedin.com/in/afifihsanmaulana/">
+          </a>
+          <a href="https://www.linkedin.com/in/afifihsanmaulana" target="_blank" rel="noopener noreferrer">
             <img src="./linkedin.png" alt="" />
-          </Link>
-          <Link href="https://mail.google.com/mail/?view=cm&fs=1&to=afifihsanke2@gmail.com">
+          </a>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=afifihsanke2@gmail.com" target="_blank" rel="noopener noreferrer">
             <img src="./email.png" alt="" />
-          </Link>
+          </a>
         </div>
         <span className="flex justify-center items-center mt-8 text-[#828282]">©Afif Ihsan Maulana 2024</span>
       </footer>

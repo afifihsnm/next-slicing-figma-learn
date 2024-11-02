@@ -26,13 +26,11 @@ const Projects = () => {
             <p>
               SADAM adalah sebuah platform berbasis website yang dirancang untuk mempermudah masyarakat melaporkan permasalahan/kejadian yang memerlukan perhatian dari pemerintah atau lembaga terkait. Panel Admin dibuat menggunakan Laravel dan Filament.
             </p>
-            <Link href="https://github.com/afifihsnm/backend-gama" passHref legacyBehavior>
-              <a target="_blank" rel="noopener noreferrer">
-                <Button variant="outline" className="mt-4 border border-black rounded-full">
-                  <span className="font-semibold">View Project</span>
-                </Button>
-              </a>
-            </Link>
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/afifihsnm/backend-gama">
+              <Button variant="outline" className="mt-4 border border-black rounded-full">
+                <span className="font-semibold">View Project</span>
+              </Button>
+            </a>
           </div>
         </article>
 
@@ -49,13 +47,11 @@ const Projects = () => {
             <p>
               Website Absensi yang dibuat menggunakan Laravel dan Tablar Admin Dashboard.
             </p>
-            <Link href="https://github.com/afifihsnm/beetlehr-attendance-backend" passHref legacyBehavior>
-              <a target="_blank" rel="noopener noreferrer">
-                <Button variant="outline" className="mt-4 border border-black rounded-full">
-                  <span className="font-semibold">View Project</span>
-                </Button>
-              </a>
-            </Link>
+            <a href="https://github.com/afifihsnm/beetlehr-attendance-backend" target="_blank" rel="noopener noreferrer">
+              <Button variant="outline" className="mt-4 border border-black rounded-full">
+                <span className="font-semibold">View Project</span>
+              </Button>
+            </a>
           </div>
         </article>
 
@@ -72,13 +68,11 @@ const Projects = () => {
             <p>
               Website LMS yang dibangun menggunakan Next.js dan Xendit sebagai Payment Gateway.
             </p>
-            <Link href="https://github.com/afifihsnm/lms-tutorial" passHref legacyBehavior>
-              <a target="_blank" rel="noopener noreferrer">
-                <Button variant="outline" className="mt-4 border border-black rounded-full">
-                  <span className="font-semibold">View Project</span>
-                </Button>
-              </a>
-            </Link>
+            <a href="https://github.com/afifihsnm/lms-tutorial" target="_blank" rel="noopener noreferrer">
+              <Button variant="outline" className="mt-4 border border-black rounded-full">
+                <span className="font-semibold">View Project</span>
+              </Button>
+            </a>
           </div>
         </article>
       </section>
