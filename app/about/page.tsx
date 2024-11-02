@@ -14,7 +14,13 @@ const AboutPage = () => {
               About me
             </div>
             <div className="mt-6 font-light text-sm sm:text-base text-[#828282]">
-            Nisl arcu, scelerisque neque ut. Tincidunt amet, <br />tempor duis tortor neque auctor dis ipsum. Pretium <br />cras amet odio amet eleifend id sed cras sed. Aliquet <br />risus posuere aliquet imperdiet sit.
+              Saya adalah seorang DevOps Engineer dan BackEnd Developer serta siswa <br />
+              aktif di SMK Negeri 8 Semarang, jurusan Pengembangan Perangkat Lunak <br />
+              dan Gim. Saya mampu membangun RESTful API menggunakan Laravel, <br />
+              membangun fullstack web menggunakan Next.js dan juga dapat <br />
+              mengoperasikan AWS untuk kebutuhan site deployment dan Cloud <br />
+              Computing. Dengan kemampuan komunikasi yang baik, saya mampu bekerja <br />
+              sama dalam tim dengan baik. <br />
             </div>
             <div className="flex gap-2 mt-5">
               <Button className="px-5 font-semibold text-black bg-yellow-400 hover:bg-yellow-400/90">

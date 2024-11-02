@@ -10,7 +10,9 @@ const Hero = () => {
         Hello, my name <br />is Afif Ihsan Maulana
       </div>
       <div className="mt-6 font-light text-sm sm:text-base text-[#828282]">
-        Short text with details about you, what you <br />do or your professional career. You can add <br />more information on the about page.
+        Saya adalah seorang DevOps Engineer dan BackEnd Developer serta siswa <br />
+        aktif di SMK Negeri 8 Semarang, jurusan Pengembangan Perangkat Lunak <br />
+        dan Gim.
       </div>
       <div className="flex gap-2 mt-5">
         <Button className="px-5 font-semibold text-black bg-yellow-400 hover:bg-yellow-400/90">
