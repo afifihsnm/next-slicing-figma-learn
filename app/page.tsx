@@ -6,7 +6,8 @@ import Projects from "@/components/Projects";
 export default function Home() {
   return (
     <div>
-      <div className="mx-48">
+      <div className="mx-16 sm:mx-48">
+        <img src="./header-bg.svg" alt="" className="absolute top-0 right-0 z-[-1]" />
         <Navbar />
         <Hero />
         <Projects />

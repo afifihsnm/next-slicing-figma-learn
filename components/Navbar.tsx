@@ -1,18 +1,27 @@
+"use client";
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const Navbar = () => {
+  const pathname = usePathname();
   return (
     <header className="py-3">
-      <img src="./header-bg.svg" alt="" className="absolute top-0 right-0 z-[-1]" />
       <nav className="flex justify-center sm:justify-between">
         <Link href="/" className="hidden sm:block">
-          Madelyn Torff
+          Afif Ihsan Maulana
         </Link>
 
         <div className="flex gap-10">
-          <Link href="/about">
-            About
-          </Link>
+          {pathname == "/about" ? (
+            <Link href="/about" className="underline underline-offset-[16px] decoration-black decoration-2">
+              About
+            </Link>
+          ) : (
+            <Link href="/about">
+              About
+            </Link>
+          )}
           <Link href="/">
             Projects
           </Link>
