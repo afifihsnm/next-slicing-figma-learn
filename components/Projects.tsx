@@ -16,14 +16,14 @@ const Projects = () => {
           <div className="w-full h-1/2 md:w-1/2 md:h-96">
             <img
               className="object-cover w-full h-full"
-              src="https://plus.unsplash.com/premium_photo-1685366445883-709973744248?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              src="./admin-sadam.png"
               alt=""
             />
           </div>
           <div className="flex-1 p-6">
-            <h2 className="text-2xl font-bold">Card Content</h2>
+            <h2 className="text-2xl font-bold">Website Pengaduan Online Masyarakat (Admin Panel)</h2>
             <p>
-              Additional text can go here to describe the content of the card.
+              SADAM adalah sebuah platform berbasis website yang dirancang untuk mempermudah masyarakat melaporkan permasalahan/kejadian yang memerlukan perhatian dari pemerintah atau lembaga terkait. Panel Admin dibuat menggunakan Laravel dan Filament.
             </p>
             <Button variant="outline" className="mt-4 border border-black rounded-full">
               <span className="font-semibold">View Project</span>
@@ -35,14 +35,14 @@ const Projects = () => {
           <div className="w-full h-1/2 md:w-1/2 md:h-96">
             <img
               className="object-cover w-full h-full"
-              src="https://plus.unsplash.com/premium_photo-1685366445883-709973744248?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              src="attendance-backend.png"
               alt=""
             />
           </div>
           <div className="flex-1 p-6">
-            <h2 className="text-2xl font-bold">Card Content</h2>
+            <h2 className="text-2xl font-bold">Website Absensi</h2>
             <p>
-              Additional text can go here to describe the content of the card.
+              Website Absensi yang dibuat menggunakan Laravel dan Tablar Admin Dashboard.
             </p>
             <Button variant="outline" className="mt-4 border border-black rounded-full">
               <span className="font-semibold">View Project</span>
@@ -54,14 +54,14 @@ const Projects = () => {
           <div className="w-full h-1/2 md:w-1/2 md:h-96">
             <img
               className="object-cover w-full h-full"
-              src="https://plus.unsplash.com/premium_photo-1685366445883-709973744248?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              src="./lms.png"
               alt=""
             />
           </div>
           <div className="flex-1 p-6">
-            <h2 className="text-2xl font-bold">Card Content</h2>
+            <h2 className="text-2xl font-bold">Website Learning Management System</h2>
             <p>
-              Additional text can go here to describe the content of the card.
+              Website LMS yang dibangun menggunakan Next.js dan Xendit sebagai Payment Gateway.
             </p>
             <Button variant="outline" className="mt-4 border border-black rounded-full">
               <span className="font-semibold">View Project</span>
