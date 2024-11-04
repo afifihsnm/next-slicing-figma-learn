@@ -14,20 +14,30 @@ const Navbar = () => {
 
         <div className="flex gap-10">
           {pathname == "/about" ? (
-            <Link href="/about" className="underline underline-offset-[16px] decoration-black decoration-2">
-              About
-            </Link>
+            <>
+              <Link href="/about" className="underline underline-offset-[16px] decoration-black decoration-2">
+                About
+              </Link>
+              <Link href="/#projects">
+                Projects
+              </Link>
+              <Link href="#contacts">
+                Contacts
+              </Link>
+            </>
           ) : (
-            <Link href="/about">
-              About
-            </Link>
+            <>
+              <Link href="/about">
+                About
+              </Link>
+              <Link href="#projects">
+                Projects
+              </Link>
+              <Link href="#contacts">
+                Contacts
+              </Link>
+            </>
           )}
-          <Link href="#projects">
-            Projects
-          </Link>
-          <Link href="#contacts">
-            Contacts
-          </Link>
         </div>
       </nav>
     </header>
