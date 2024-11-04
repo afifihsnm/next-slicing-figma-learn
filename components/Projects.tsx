@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 const Projects = () => {
   return (
     <div className="mt-72">
-      <section>
+      <section id="projects">
         <div className="flex justify-center items-center">
           <span className="font-bold text-4xl underline underline-offset-[16px] decoration-yellow-400">
             Projects

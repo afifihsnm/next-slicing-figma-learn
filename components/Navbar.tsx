@@ -22,10 +22,10 @@ const Navbar = () => {
               About
             </Link>
           )}
-          <Link href="/">
+          <Link href="#projects">
             Projects
           </Link>
-          <Link href="/">
+          <Link href="#contacts">
             Contacts
           </Link>
         </div>

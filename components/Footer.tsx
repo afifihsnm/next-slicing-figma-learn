@@ -5,10 +5,10 @@ const Footer = () => {
   return (
     <div className="mt-32 flex justify-center items-center">
       <footer>
-        <section>
+        <section id="contacts">
           <div className="flex justify-center items-center mb-12">
             <span className="font-bold text-4xl underline underline-offset-[16px] decoration-yellow-400">
-              Projects
+              Contacts
             </span>
           </div>
         </section>
